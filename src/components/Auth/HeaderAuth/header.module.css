@@ -1,0 +1,48 @@
+.header {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.headerNav {
+	display: flex;
+	gap: 24px;
+}
+
+.mobileLInk {
+	display: none;
+	color: var(--grey);
+
+}
+
+.buttonBack {
+	display: none;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+}
+
+.buttonBack:hover {
+	color: var(--main-blue);
+}
+
+@media (max-width: 576px) {
+	.mobileLInk {
+		display: inline-block;
+	}
+
+	.headerNav {
+		display: none;
+	}
+
+	.header {
+		color: var(--main-blue)
+	}
+
+	.buttonBack {
+		display: inline-flex;
+
+	}
+}

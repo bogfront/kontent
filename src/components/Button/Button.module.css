@@ -1,0 +1,9 @@
+.button {
+	padding-inline-start: 32px !important;
+	padding-inline-end: 32px !important;
+	background-color: #3051FF;
+	width: 100%;
+	min-width: max-content;
+	max-width: 410px;
+
+}

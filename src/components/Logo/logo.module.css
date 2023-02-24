@@ -1,0 +1,38 @@
+.logo {
+	display: flex;
+	align-items: center;
+	width: max-content;
+	flex-wrap: nowrap;
+}
+
+#logo {
+	fill: currentcolor;
+}
+
+.text {
+	color: inherit;
+	width: max-content;
+	display: block;
+}
+
+.textMobile {
+	color: inherit;
+	font-weight: 700;
+	display: none;
+}
+
+@media (max-width: 576px) {
+	.logo {
+		color: var(--main-blue);
+	}
+
+	.text {
+		display: none;
+	}
+
+	.textMobile {
+		color: var(--main-blue);
+		display: block;
+	}
+
+}

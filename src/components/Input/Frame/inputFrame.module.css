@@ -1,0 +1,14 @@
+.inputContainer {
+	position: relative;
+}
+
+.customLabel {
+	line-height: 17px;
+	color: var(--grey);
+	position: absolute;
+	z-index: 100;
+	top: -10px;
+	left: 2%;
+	background-color: var(--white);
+	padding: 0 5px;
+}

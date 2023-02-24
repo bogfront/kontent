@@ -1,0 +1,48 @@
+.form {
+	width: 100%;
+	max-width: 410px;
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.formTitle {
+	padding-bottom: 50px;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 0;
+	padding-bottom: 10px;
+}
+
+.subTitle {
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--dark-brown);
+}
+
+.formBody {
+	display: flex;
+	flex-flow: column;
+	gap: 30px;
+}
+
+.formFooter {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	gap: 15px;
+}
+
+.formFooter > small {
+	color: var(--grey);
+}
+
+@media (max-width: 992px) {
+	.formTitle {
+		padding-bottom: 30px;
+	}
+}

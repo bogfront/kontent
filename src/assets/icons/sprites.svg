@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <!--Company logo Note-->
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="note">
+        <path d="M9.5 21C11.9853 21 14 18.9853 14 16.5C14 14.0147 11.9853 12 9.5 12C7.01472 12 5 14.0147 5 16.5C5 18.9853 7.01472 21 9.5 21Z"
+              fill="#2D2D2D"></path>
+        <path d="M12 3V16.5H14V7L19.5 8.5V5L12 3Z" fill="#2D2D2D"></path>
+    </symbol>
+</svg>

@@ -1,0 +1,17 @@
+.forgetPass {
+	color: var(--main-blue);
+}
+
+.forgetBlock {
+	text-align: end;
+	padding-top: 10px;
+	display: block;
+}
+
+.question {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--light-grey2);
+	padding-top: 10px;
+	cursor: pointer;
+}
